@@ -1,10 +1,6 @@
 !(function($) {
     "use strict";
-  new BrowserWindow({
-  webPreferences: {
-    webSecurity: false
-  }
-});
+ 
     // fd typed
     if ($('.typed').length) {
       var typed_strings = $(".typed").data('typed-items');
